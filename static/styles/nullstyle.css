@@ -1,0 +1,58 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .2s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+button,input{
+    background: none;
+    border: none;
+}
+
+body{
+    background: var(--main-black);
+    scroll-behavior: smooth;
+    position: relative;
+}
+html{
+    overflow-x: hidden;
+}
+*{
+    font-family: "Inter", serif;
+    letter-spacing: normal !important;
+}
+img{
+    user-select: none;
+}
