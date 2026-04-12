@@ -42,7 +42,7 @@ button,input{
 }
 
 body{
-    background: var(--main-black);
+    background: white;
     scroll-behavior: smooth;
     position: relative;
 }
