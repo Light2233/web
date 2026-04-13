@@ -5,7 +5,7 @@
   function closeTab() {
     window.open('', '_self');
     window.close();
-	window.location = "/"
+	  window.location = "/web/"
     
   }
 </script>

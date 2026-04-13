@@ -1,19 +1,22 @@
-<!-- src/routes/+page.svelte -->
-<script>
+<script lang="ts">
+    let base: '' | `/${string}`= "/web";
+
   // Svelte 5 - навигация по заданиям
+
 </script>
 
 <div class="nav-container">
   <h1>Лабораторные задания — Svelte 5</h1>
   <nav>
-    <a href="/task1">Задание 1 — Привет и закрыть</a>
-    <a href="/task2">Задание 2 — Цвет фона</a>
-    <a href="/task3">Задание 3 — Размер окна и курсоры</a>
-    <a href="/task4">Задание 4 — Вычисления X, Y, Z</a>
-    <a href="/task5">Задание 5 — Проверка кратности</a>
-    <a href="/task6">Задание 6 — Фигуры и Canvas</a>
-    <a href="/task7">Задание 7 — Численное интегрирование</a>
-    <a href="/task8">Задание 8 — Модальные окна</a>
+    
+    <a href="{base}/task1">Задание 1 — Привет и закрыть</a>
+    <a href="{base}/task2">Задание 2 — Цвет фона</a>
+    <a href="{base}/task3">Задание 3 — Размер окна и курсоры</a>
+    <a href="{base}/task4">Задание 4 — Вычисления X, Y, Z</a>
+    <a href="{base}/task5">Задание 5 — Проверка кратности</a>
+    <a href="{base}/task6">Задание 6 — Фигуры и Canvas</a>
+    <a href="{base}/task7">Задание 7 — Численное интегрирование</a>
+    <a href="{base}/task8">Задание 8 — Модальные окна</a>
   </nav>
 </div>
 
