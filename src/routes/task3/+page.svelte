@@ -164,7 +164,7 @@
     <p class="cursor-info">Текущий: <code>{cursorType}</code></p>
   </section>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="/web" class="btn-back">← Назад</a>
 </div>
 
 <style>

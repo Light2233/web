@@ -117,7 +117,7 @@
     {/if}
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="/web" class="btn-back">← Назад</a>
 </div>
 
 <style>
