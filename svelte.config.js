@@ -9,9 +9,9 @@ const config = {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
-		paths: {
-			base: '/web'
-		}
+		// paths: {
+		// 	base: '/web'
+		// }
 	},
 	vitePlugin: {
 		dynamicCompileOptions: ({ filename }) =>

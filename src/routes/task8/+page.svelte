@@ -192,7 +192,7 @@
             <button class="btn btn-modeless" onclick={openModeless}>
                 📋 Вызов немодальной формы
             </button>
-            <a href="/web"  class="btn btn-modal">Назад</a>
+            <a href="/"  class="btn btn-modal">Назад</a>
         </div>
         
         <!-- Статусная информация -->

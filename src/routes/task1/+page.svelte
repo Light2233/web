@@ -5,7 +5,7 @@
   function closeTab() {
     window.open('', '_self');
     window.close();
-	  window.location = "/web/"
+	  window.location = "/"
     
   }
 </script>
@@ -19,7 +19,7 @@
     <button class="btn btn-close" onclick={closeTab}>
       ✕ Закрыть вкладку
     </button>
-    <a href="/web" class="btn btn-back">← Назад</a>
+    <a href="/" class="btn btn-back">← Назад</a>
   </div>
 </div>
 
