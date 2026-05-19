@@ -1,5 +1,6 @@
 <script>
     import { onDestroy } from 'svelte';
+    import { base } from '$app/paths';
     
     // ========== УПРАВЛЕНИЕ МОДАЛЬНЫМИ/НЕМОДАЛЬНЫМИ ОКНАМИ ==========
     // Модальное окно: требует закрытия перед продолжением работы с основной формой
@@ -192,7 +193,7 @@
             <button class="btn btn-modeless" onclick={openModeless}>
                 📋 Вызов немодальной формы
             </button>
-            <a href="/"  class="btn btn-modal">Назад</a>
+            <a href="{base}/"  class="btn btn-modal">Назад</a>
         </div>
         
         <!-- Статусная информация -->

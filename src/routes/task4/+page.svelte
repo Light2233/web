@@ -7,6 +7,8 @@
   let group = $state('42/2');
   let operation = $state('sum');
 
+  import { base } from '$app/paths';
+
   const operations = [
     { id: 'sum', name: 'Сумма (x + y + z)' },
     { id: 'product', name: 'Произведение (x × y × z)' },
@@ -117,7 +119,7 @@
     {/if}
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

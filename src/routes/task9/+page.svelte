@@ -3,6 +3,8 @@
   let result = $state(null);
   let error = $state('');
 
+  import { base } from '$app/paths';
+
   function solve() {
     error = '';
     result = null;
@@ -100,7 +102,7 @@
     {/if}
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

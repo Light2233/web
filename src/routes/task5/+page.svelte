@@ -6,6 +6,8 @@
   let newDivisor = $state('');
   let results = $state([]);
 
+  import { base } from '$app/paths';
+
   function toggleDivisor(d) {
     if (selectedDivisors.includes(d)) {
       selectedDivisors = selectedDivisors.filter(v => v !== d);
@@ -111,7 +113,7 @@
     {/if}
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

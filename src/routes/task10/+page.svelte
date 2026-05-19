@@ -11,7 +11,7 @@
   let rows = $state(3);
   let cols = $state(3);
   let k = $state(2);
-
+  import { base } from '$app/paths';
   // Матрицы храним как массив массивов строк (для удобного ввода)
   let A = $state([
     ['2', '4', '6'],
@@ -249,7 +249,7 @@
     {/if}
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

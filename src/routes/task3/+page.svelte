@@ -6,6 +6,8 @@
   let popupWindow = $state(null);
   let popupStatus = $state('Popup не открыт');
 
+  import { base } from '$app/paths';
+
   $effect(() => {
     const update = () => {
       windowWidth = window.innerWidth;
@@ -164,7 +166,7 @@
     <p class="cursor-info">Текущий: <code>{cursorType}</code></p>
   </section>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

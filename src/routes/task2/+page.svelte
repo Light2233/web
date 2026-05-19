@@ -1,6 +1,8 @@
 <script>
   let bgColor = $state(' #A8E4A0');
 
+  import { base } from '$app/paths';
+
   const colors = [
     { name: 'Тёмно-синий', value: ' #A8E4A0' },
     { name: 'Красный', value: '#b71c1c' },
@@ -30,7 +32,7 @@
     {/each}
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

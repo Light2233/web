@@ -1,5 +1,6 @@
 <!-- src/routes/task7/+page.svelte -->
 <script>
+  import { base } from '$app/paths';
   let a = $state(0);
   let b = $state(Math.PI);
   let n = $state(100);
@@ -338,7 +339,7 @@
     </div>
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>

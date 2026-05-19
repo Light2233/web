@@ -1,5 +1,7 @@
 <!-- src/routes/task6/+page.svelte -->
 <script>
+  import { base } from '$app/paths';
+
   let shape = $state('triangle');
   let sideA = $state(100);
   let sideB = $state(80);
@@ -283,7 +285,7 @@
     </div>
   </div>
 
-  <a href="/" class="btn-back">← Назад</a>
+  <a href="{base}/" class="btn-back">← Назад</a>
 </div>
 
 <style>
