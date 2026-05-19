@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../styles/nullstyle.css">
+		<link rel="stylesheet" href="../styles/roots.css">
+		<link rel="stylesheet" href="../styles/design_system.css">
+		<link href="../_app/immutable/entry/start.e2E45wDg.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DAd24dwt.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CV1nVBX7.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DIXiZNW4.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/DdtUvzmf.js" rel="modulepreload">
+		<link href="../_app/immutable/entry/app.BD-qHBU9.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/ypO5ASgs.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/B6M-sSSd.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/O_v9IzDu.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/B6fX5Z25.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/B9UCpLMq.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/5M2z2ftn.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/0.DoMfhXaE.js" rel="modulepreload">
+		<link href="../_app/immutable/nodes/10.Bkw99WOl.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/Dn5OknN2.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/CzoKBJG8.js" rel="modulepreload">
+		<link href="../_app/immutable/chunks/8i5YZGkJ.js" rel="modulepreload">
+		
+		<link href="../_app/immutable/assets/10.CzCI5bRw.css" rel="stylesheet">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[0--><!--[--><main><!--[--><div class="container svelte-nv7mud"><h1 class="svelte-nv7mud">Численное интегрирование</h1> <p class="subtitle svelte-nv7mud">Метод средних прямоугольников</p> <div class="layout svelte-nv7mud"><div class="card controls svelte-nv7mud"><div class="section svelte-nv7mud"><h3 class="svelte-nv7mud">Отрезок интегрирования</h3> <div class="row svelte-nv7mud"><div class="input-group svelte-nv7mud"><label class="svelte-nv7mud">a (от)</label> <input type="number" value="0" step="any" class="svelte-nv7mud"/></div> <div class="input-group svelte-nv7mud"><label class="svelte-nv7mud">b (до)</label> <input type="number" value="3.141592653589793" step="any" class="svelte-nv7mud"/></div> <div class="input-group svelte-nv7mud"><label class="svelte-nv7mud">n (разбиений)</label> <input type="number" value="100" min="1" max="100000" class="svelte-nv7mud"/></div></div></div> <div class="section svelte-nv7mud"><h3 class="svelte-nv7mud">Функция f(x)</h3> <div class="func-list svelte-nv7mud"><!--[--><label class="func-label svelte-nv7mud"><input type="radio" checked="" value="0" class="svelte-nv7mud"/> <span>sin(x)</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="1" class="svelte-nv7mud"/> <span>cos(x)</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="2" class="svelte-nv7mud"/> <span>x²</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="3" class="svelte-nv7mud"/> <span>x³</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="4" class="svelte-nv7mud"/> <span>eˣ</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="5" class="svelte-nv7mud"/> <span>1/x</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="6" class="svelte-nv7mud"/> <span>√x</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="7" class="svelte-nv7mud"/> <span>ln(x)</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="8" class="svelte-nv7mud"/> <span>x·sin(x)</span> <!--[-1--><!--]--></label><label class="func-label svelte-nv7mud"><input type="radio" value="9" class="svelte-nv7mud"/> <span>1/(1+x²)</span> <!--[-1--><!--]--></label><!--]--></div></div> <div class="section add-func svelte-nv7mud"><h3 class="svelte-nv7mud">Добавить свою функцию</h3> <div class="input-group svelte-nv7mud"><label class="svelte-nv7mud">Название</label> <input type="text" value="" placeholder="sin(x)+cos(x)" class="svelte-nv7mud"/></div> <div class="input-group svelte-nv7mud"><label class="svelte-nv7mud">Выражение JS (переменная x)</label> <input type="text" value="" placeholder="Math.sin(x)+Math.cos(x)" class="svelte-nv7mud"/></div> <button class="btn btn-add svelte-nv7mud">+ Добавить функцию</button></div> <button class="btn btn-calc svelte-nv7mud">🧮 Вычислить интеграл</button> <!--[-1--><!--]--></div> <div class="right-panel svelte-nv7mud"><div class="card canvas-wrap svelte-nv7mud"><canvas width="550" height="400" class="svelte-nv7mud"></canvas></div> <!--[-1--><!--]--></div></div> <div class="formula-box svelte-nv7mud"><h3 class="svelte-nv7mud">Формула метода средних прямоугольников:</h3> <div class="formula svelte-nv7mud">∫<sub>a</sub><sup>b</sup> f(x)dx ≈ h · Σ<sub>i=0</sub><sup>n-1</sup> f(x<sub>i+½</sub>)</div> <div class="formula-detail svelte-nv7mud">где h = (b − a) / n,    x<sub>i+½</sub> = a + (i + 0.5) · h</div></div> <a href="../" class="btn-back svelte-nv7mud">← Назад</a></div><!--]--><!----></main><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1uwj42c = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						assets: "/web"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.e2E45wDg.js"),
+						import("../_app/immutable/entry/app.BD-qHBU9.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 10],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
