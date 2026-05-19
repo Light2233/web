@@ -11,7 +11,8 @@ const config = {
     }),
     paths: {
       base: '/web'
-    }
+    },
+    appDir: 'internal' 
   }
 };
 
